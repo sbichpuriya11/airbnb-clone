@@ -7,7 +7,7 @@ import SearchPage from "./SearchPage";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename="/airbnb-clone">
         <Header />
 
         <Routes>
